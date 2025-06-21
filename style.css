@@ -114,6 +114,51 @@ header {
   color: #444;
 }
 
+.gallery {
+  background: #ffffff;
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.gallery h2 {
+  color: #002244;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.gallery .subtext {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.gallery-item {
+  background: #f4f4f4;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.gallery-item p {
+  padding: 0.8rem;
+  font-size: 0.95rem;
+  color: #333;
+}
+
 footer {
   background: #222;
   color: #ccc;
