@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -64,6 +65,53 @@ header {
   padding: 0.8rem 1.2rem;
   border-radius: 8px;
   font-weight: 600;
+}
+
+.expertise {
+  background: #f9f9f9;
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.expertise h2 {
+  color: #002244;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.subtext {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.expertise-box {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.expertise-box h3 {
+  color: #002244;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.expertise-box ul {
+  padding-left: 1rem;
+  line-height: 1.8;
+  font-size: 0.95rem;
+  color: #444;
 }
 
 footer {
