@@ -28,3 +28,22 @@ footer {
   padding: 1rem;
   font-size: 0.9rem;
 }
+
+.about {
+  background: #ffffff;
+  padding: 2rem 1.5rem;
+  text-align: left;
+  max-width: 800px;
+  margin: auto;
+}
+
+.about h2 {
+  color: #002244;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
