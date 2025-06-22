@@ -158,6 +158,51 @@ header {
   font-size: 0.95rem;
   color: #333;
 }
+.testimonials {
+  background: #f9f9f9;
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.testimonials h2 {
+  color: #002244;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.testimonials .subtext {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  text-align: left;
+  position: relative;
+}
+
+.quote {
+  font-style: italic;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.name {
+  font-weight: bold;
+  color: #002244;
+}
 
 footer {
   background: #222;
