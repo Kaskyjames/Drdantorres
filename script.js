@@ -110,3 +110,76 @@ document.getElementById("footer-text").textContent = data.footer.text;) => {
   const savedLang = localStorage.getItem("siteLang") || "en";
   setLanguage(savedLang);
 });
+document.getElementById("intro-headline").textContent = data.intro.headline;
+document.getElementById("intro-subtext").textContent = data.intro.subtext;
+
+document.getElementById("about-title").textContent = data.about.title;
+document.getElementById("about-text1").textContent = data.about.text1;
+document.getElementById("about-text2").textContent = data.about.text2;
+document.getElementById("about-text3").textContent = data.about.text3;
+
+document.getElementById("about-highlight1").textContent = data.about.highlight1;
+document.getElementById("about-highlight2").textContent = data.about.highlight2;
+document.getElementById("about-highlight3").textContent = data.about.highlight3;
+document.getElementById("expertise-title").textContent = data.expertise.title;
+document.getElementById("expertise-subtext").textContent = data.expertise.subtext;
+
+document.getElementById("expertise-box1-title").textContent = data.expertise.box1_title;
+document.getElementById("exp1-item1").textContent = data.expertise.box1[0];
+document.getElementById("exp1-item2").textContent = data.expertise.box1[1];
+document.getElementById("exp1-item3").textContent = data.expertise.box1[2];
+document.getElementById("exp1-item4").textContent = data.expertise.box1[3];
+
+document.getElementById("expertise-box2-title").textContent = data.expertise.box2_title;
+document.getElementById("exp2-item1").textContent = data.expertise.box2[0];
+document.getElementById("exp2-item2").textContent = data.expertise.box2[1];
+document.getElementById("exp2-item3").textContent = data.expertise.box2[2];
+document.getElementById("exp2-item4").textContent = data.expertise.box2[3];
+
+document.getElementById("expertise-box3-title").textContent = data.expertise.box3_title;
+document.getElementById("exp3-item1").textContent = data.expertise.box3[0];
+document.getElementById("exp3-item2").textContent = data.expertise.box3[1];
+document.getElementById("exp3-item3").textContent = data.expertise.box3[2];
+document.getElementById("exp3-item4").textContent = data.expertise.box3[3];
+
+document.getElementById("gallery-title").textContent = data.gallery.title;
+document.getElementById("gallery-subtext").textContent = data.gallery.subtext;
+document.getElementById("gallery-caption1").textContent = data.gallery.caption1;
+document.getElementById("gallery-caption2").textContent = data.gallery.caption2;
+document.getElementById("gallery-caption3").textContent = data.gallery.caption3;
+document.getElementById("gallery-caption4").textContent = data.gallery.caption4;
+
+document.getElementById("testimonials-title").textContent = data.testimonials.title;
+document.getElementById("testimonials-subtext").textContent = data.testimonials.subtext;
+
+document.getElementById("testimonial-quote1").textContent = data.testimonials.quote1;
+document.getElementById("testimonial-name1").textContent = data.testimonials.name1;
+
+document.getElementById("testimonial-quote2").textContent = data.testimonials.quote2;
+document.getElementById("testimonial-name2").textContent = data.testimonials.name2;
+
+document.getElementById("testimonial-quote3").textContent = data.testimonials.quote3;
+document.getElementById("testimonial-name3").textContent = data.testimonials.name3;
+
+document.getElementById("media-title").textContent = data.media.title;
+document.getElementById("media-subtext").textContent = data.media.subtext;
+document.getElementById("media-caption1").textContent = data.media.caption1;
+document.getElementById("media-caption2").textContent = data.media.caption2;
+document.getElementById("media-caption3").textContent = data.media.caption3;
+document.getElementById("media-caption4").textContent = data.media.caption4;
+
+document.getElementById("contact-title").textContent = data.contact.title;
+document.getElementById("contact-subtext").textContent = data.contact.subtext;
+
+document.getElementById("contact-name").placeholder = data.contact.form.name;
+document.getElementById("contact-email").placeholder = data.contact.form.email;
+document.getElementById("contact-phone").placeholder = data.contact.form.phone;
+document.getElementById("contact-message").placeholder = data.contact.form.message;
+document.getElementById("contact-button").textContent = data.contact.form.button;
+
+document.getElementById("contact-whatsapp").innerHTML = `📱 <strong>WhatsApp:</strong> <a href="https://wa.me/+40733760917">${data.contact.whatsapp.split(':')[1].trim()}</a>`;
+document.getElementById("contact-email").innerHTML = `📧 <strong>Email:</strong> <a href="mailto:drdanielotorres@gmail.com">${data.contact.email.split(':')[1].trim()}</a>`;
+document.getElementById("contact-location").textContent = data.contact.location;
+
+document.getElementById("footer-text").textContent = data.footer.text;
+
