@@ -48,3 +48,23 @@ document.getElementById("about-text3").textContent = data.about.text3;
 document.getElementById("about-highlight1").textContent = data.about.highlight1;
 document.getElementById("about-highlight2").textContent = data.about.highlight2;
 document.getElementById("about-highlight3").textContent = data.about.highlight3;
+document.getElementById("expertise-title").textContent = data.expertise.title;
+document.getElementById("expertise-subtext").textContent = data.expertise.subtext;
+
+document.getElementById("expertise-box1-title").textContent = data.expertise.box1_title;
+document.getElementById("exp1-item1").textContent = data.expertise.box1[0];
+document.getElementById("exp1-item2").textContent = data.expertise.box1[1];
+document.getElementById("exp1-item3").textContent = data.expertise.box1[2];
+document.getElementById("exp1-item4").textContent = data.expertise.box1[3];
+
+document.getElementById("expertise-box2-title").textContent = data.expertise.box2_title;
+document.getElementById("exp2-item1").textContent = data.expertise.box2[0];
+document.getElementById("exp2-item2").textContent = data.expertise.box2[1];
+document.getElementById("exp2-item3").textContent = data.expertise.box2[2];
+document.getElementById("exp2-item4").textContent = data.expertise.box2[3];
+
+document.getElementById("expertise-box3-title").textContent = data.expertise.box3_title;
+document.getElementById("exp3-item1").textContent = data.expertise.box3[0];
+document.getElementById("exp3-item2").textContent = data.expertise.box3[1];
+document.getElementById("exp3-item3").textContent = data.expertise.box3[2];
+document.getElementById("exp3-item4").textContent = data.expertise.box3[3];
