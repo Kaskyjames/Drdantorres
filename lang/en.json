@@ -28,4 +28,29 @@
   "highlight2": "🏆 Certified Internationally",
   "highlight3": "👨‍⚕️ 1,000+ Surgeries Performed"
   }
+  "expertise": {
+  "title": "Surgical Expertise",
+  "subtext": "Precision. Innovation. Results that speak.",
+  "box1_title": "Plastic & Aesthetic Surgery",
+  "box2_title": "Orthopedic Surgery",
+  "box3_title": "Advanced Techniques",
+  "box1": [
+    "• Rhinoplasty (Nose Reshaping)",
+    "• Facelift & Eyelid Surgery",
+    "• Liposuction & Body Contouring",
+    "• Breast Augmentation/Reduction"
+  ],
+  "box2": [
+    "• Joint Reconstruction",
+    "• Trauma & Post-injury Correction",
+    "• Sports Injury Repair",
+    "• Minimally Invasive Procedures"
+  ],
+  "box3": [
+    "• Robotic-assisted Surgery",
+    "• AI-guided Diagnostics",
+    "• Laser & Scar Revision",
+    "• 3D Surgical Planning"
+  ]
+  }
 }
