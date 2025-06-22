@@ -61,4 +61,14 @@
   "caption3": "In Surgery – Leading with Precision",
   "caption4": "Speaking at the Global Ortho-Plastic Summit"
   }
+  "testimonials": {
+  "title": "What Patients Say",
+  "subtext": "Real experiences. Global voices. Trusted hands.",
+  "quote1": "“Dr. Danielo transformed my life — beyond just surgery. His care and precision are unmatched.”",
+  "name1": "– Carla M., Portugal 🇵🇹",
+  "quote2": "“After my accident, I thought I'd never walk right again. Today, I run — thanks to Dr. Torres.”",
+  "name2": "– Gregorio L., Mexico 🇲🇽",
+  "quote3": "“I flew from Dubai just to have my procedure with Dr. Danielo. The results? Absolutely elite.”",
+  "name3": "– Leila H., UAE 🇦🇪"
+  }
 }
