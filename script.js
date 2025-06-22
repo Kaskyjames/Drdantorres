@@ -39,3 +39,5 @@ window.addEventListener("load", () => {
   const savedLang = localStorage.getItem("siteLang") || "en";
   setLanguage(savedLang);
 });
+document.getElementById("intro-headline").textContent = data.intro.headline;
+document.getElementById("intro-subtext").textContent = data.intro.subtext;
