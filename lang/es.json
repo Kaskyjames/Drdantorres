@@ -1,0 +1,18 @@
+{
+  "nav": {
+    "about": "Sobre mí",
+    "expertise": "Especialidades",
+    "gallery": "Galería",
+    "testimonials": "Testimonios",
+    "media": "Medios",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "headline": "Precisión. Pasión. Transformación.",
+    "subtext": "Cirujano plástico y ortopédico de renombre mundial"
+  },
+  "about": {
+    "title": "Sobre el Dr. Danielo Torres",
+    "text": "Dedicado a brindar excelencia quirúrgica de clase mundial..."
+  }
+}
