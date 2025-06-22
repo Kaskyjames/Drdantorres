@@ -79,4 +79,18 @@
   "caption3": "🎤 Conferencista Principal – OrthoTech World, Singapur",
   "caption4": "📜 Certificado por la Junta Europea de Cirugía Plástica y Ortopédica"
   }
+  "contact": {
+  "title": "Reservar una Cita",
+  "subtext": "Conectemos. Tu transformación comienza con una consulta.",
+  "form": {
+    "name": "Nombre Completo",
+    "email": "Tu Correo Electrónico",
+    "phone": "Tu Número de Teléfono",
+    "message": "Tu mensaje o procedimiento de interés...",
+    "button": "Enviar Mensaje"
+  },
+  "whatsapp": "📱 WhatsApp: Chatea Ahora",
+  "email": "📧 Correo: hello@drdantorres.com",
+  "location": "📍 Disponible Globalmente – Con sede en Portugal"
+  }
 }
