@@ -96,3 +96,16 @@ document.getElementById("media-caption1").textContent = data.media.caption1;
 document.getElementById("media-caption2").textContent = data.media.caption2;
 document.getElementById("media-caption3").textContent = data.media.caption3;
 document.getElementById("media-caption4").textContent = data.media.caption4;
+
+document.getElementById("contact-title").textContent = data.contact.title;
+document.getElementById("contact-subtext").textContent = data.contact.subtext;
+
+document.getElementById("contact-name").placeholder = data.contact.form.name;
+document.getElementById("contact-email").placeholder = data.contact.form.email;
+document.getElementById("contact-phone").placeholder = data.contact.form.phone;
+document.getElementById("contact-message").placeholder = data.contact.form.message;
+document.getElementById("contact-button").textContent = data.contact.form.button;
+
+document.getElementById("contact-whatsapp").innerHTML = `📱 <strong>WhatsApp:</strong> <a href="https://wa.me/+40733760917">${data.contact.whatsapp.split(':')[1].trim()}</a>`;
+document.getElementById("contact-email").innerHTML = `📧 <strong>Email:</strong> <a href="mailto:drdanielotorres@gmail.com">${data.contact.email.split(':')[1].trim()}</a>`;
+document.getElementById("contact-location").textContent = data.contact.location;
