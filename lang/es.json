@@ -28,4 +28,29 @@
   "highlight2": "🏆 Certificado internacionalmente",
   "highlight3": "👨‍⚕️ Más de 1.000 cirugías realizadas"
   }
+  "expertise": {
+  "title": "Especialidades Quirúrgicas",
+  "subtext": "Precisión. Innovación. Resultados que hablan.",
+  "box1_title": "Cirugía Plástica y Estética",
+  "box2_title": "Cirugía Ortopédica",
+  "box3_title": "Técnicas Avanzadas",
+  "box1": [
+    "• Rinoplastia (Reforma de Nariz)",
+    "• Lifting Facial y Cirugía de Párpados",
+    "• Liposucción y Contorno Corporal",
+    "• Aumento/Reducción de Senos"
+  ],
+  "box2": [
+    "• Reconstrucción Articular",
+    "• Corrección Postraumática",
+    "• Reparación de Lesiones Deportivas",
+    "• Procedimientos Mínimamente Invasivos"
+  ],
+  "box3": [
+    "• Cirugía Asistida por Robot",
+    "• Diagnósticos Guiados por IA",
+    "• Láser y Revisión de Cicatrices",
+    "• Planificación Quirúrgica en 3D"
+  ]
+  }
 }
