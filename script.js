@@ -41,3 +41,10 @@ window.addEventListener("load", () => {
 });
 document.getElementById("intro-headline").textContent = data.intro.headline;
 document.getElementById("intro-subtext").textContent = data.intro.subtext;
+document.getElementById("about-title").textContent = data.about.title;
+document.getElementById("about-text1").textContent = data.about.text1;
+document.getElementById("about-text2").textContent = data.about.text2;
+document.getElementById("about-text3").textContent = data.about.text3;
+document.getElementById("about-highlight1").textContent = data.about.highlight1;
+document.getElementById("about-highlight2").textContent = data.about.highlight2;
+document.getElementById("about-highlight3").textContent = data.about.highlight3;
