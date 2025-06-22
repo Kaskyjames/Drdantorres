@@ -41,10 +41,12 @@ window.addEventListener("load", () => {
 });
 document.getElementById("intro-headline").textContent = data.intro.headline;
 document.getElementById("intro-subtext").textContent = data.intro.subtext;
+
 document.getElementById("about-title").textContent = data.about.title;
 document.getElementById("about-text1").textContent = data.about.text1;
 document.getElementById("about-text2").textContent = data.about.text2;
 document.getElementById("about-text3").textContent = data.about.text3;
+
 document.getElementById("about-highlight1").textContent = data.about.highlight1;
 document.getElementById("about-highlight2").textContent = data.about.highlight2;
 document.getElementById("about-highlight3").textContent = data.about.highlight3;
@@ -68,3 +70,10 @@ document.getElementById("exp3-item1").textContent = data.expertise.box3[0];
 document.getElementById("exp3-item2").textContent = data.expertise.box3[1];
 document.getElementById("exp3-item3").textContent = data.expertise.box3[2];
 document.getElementById("exp3-item4").textContent = data.expertise.box3[3];
+
+document.getElementById("gallery-title").textContent = data.gallery.title;
+document.getElementById("gallery-subtext").textContent = data.gallery.subtext;
+document.getElementById("gallery-caption1").textContent = data.gallery.caption1;
+document.getElementById("gallery-caption2").textContent = data.gallery.caption2;
+document.getElementById("gallery-caption3").textContent = data.gallery.caption3;
+document.getElementById("gallery-caption4").textContent = data.gallery.caption4;
