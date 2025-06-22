@@ -35,11 +35,7 @@ async function setLanguage(lang) {
 }
 
 // Auto-load language preference
-window.addEventListener("load", () => {
-  const savedLang = localStorage.getItem("siteLang") || "en";
-  setLanguage(savedLang);
-});
-document.getElementById("intro-headline").textContent = data.intro.headline;
+window.addEventListener("load", (document.getElementById("intro-headline").textContent = data.intro.headline;
 document.getElementById("intro-subtext").textContent = data.intro.subtext;
 
 document.getElementById("about-title").textContent = data.about.title;
@@ -110,4 +106,7 @@ document.getElementById("contact-whatsapp").innerHTML = `📱 <strong>WhatsApp:<
 document.getElementById("contact-email").innerHTML = `📧 <strong>Email:</strong> <a href="mailto:drdanielotorres@gmail.com">${data.contact.email.split(':')[1].trim()}</a>`;
 document.getElementById("contact-location").textContent = data.contact.location;
 
-document.getElementById("footer-text").textContent = data.footer.text;
+document.getElementById("footer-text").textContent = data.footer.text;) => {
+  const savedLang = localStorage.getItem("siteLang") || "en";
+  setLanguage(savedLang);
+});
