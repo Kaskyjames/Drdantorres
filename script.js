@@ -77,3 +77,15 @@ document.getElementById("gallery-caption1").textContent = data.gallery.caption1;
 document.getElementById("gallery-caption2").textContent = data.gallery.caption2;
 document.getElementById("gallery-caption3").textContent = data.gallery.caption3;
 document.getElementById("gallery-caption4").textContent = data.gallery.caption4;
+
+document.getElementById("testimonials-title").textContent = data.testimonials.title;
+document.getElementById("testimonials-subtext").textContent = data.testimonials.subtext;
+
+document.getElementById("testimonial-quote1").textContent = data.testimonials.quote1;
+document.getElementById("testimonial-name1").textContent = data.testimonials.name1;
+
+document.getElementById("testimonial-quote2").textContent = data.testimonials.quote2;
+document.getElementById("testimonial-name2").textContent = data.testimonials.name2;
+
+document.getElementById("testimonial-quote3").textContent = data.testimonials.quote3;
+document.getElementById("testimonial-name3").textContent = data.testimonials.name3;
