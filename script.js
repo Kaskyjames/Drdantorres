@@ -109,3 +109,5 @@ document.getElementById("contact-button").textContent = data.contact.form.button
 document.getElementById("contact-whatsapp").innerHTML = `📱 <strong>WhatsApp:</strong> <a href="https://wa.me/+40733760917">${data.contact.whatsapp.split(':')[1].trim()}</a>`;
 document.getElementById("contact-email").innerHTML = `📧 <strong>Email:</strong> <a href="mailto:drdanielotorres@gmail.com">${data.contact.email.split(':')[1].trim()}</a>`;
 document.getElementById("contact-location").textContent = data.contact.location;
+
+document.getElementById("footer-text").textContent = data.footer.text;
