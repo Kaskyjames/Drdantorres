@@ -89,3 +89,10 @@ document.getElementById("testimonial-name2").textContent = data.testimonials.nam
 
 document.getElementById("testimonial-quote3").textContent = data.testimonials.quote3;
 document.getElementById("testimonial-name3").textContent = data.testimonials.name3;
+
+document.getElementById("media-title").textContent = data.media.title;
+document.getElementById("media-subtext").textContent = data.media.subtext;
+document.getElementById("media-caption1").textContent = data.media.caption1;
+document.getElementById("media-caption2").textContent = data.media.caption2;
+document.getElementById("media-caption3").textContent = data.media.caption3;
+document.getElementById("media-caption4").textContent = data.media.caption4;
