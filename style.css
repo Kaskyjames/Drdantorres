@@ -1,3 +1,51 @@
+/* Navigation Bar */
+.navbar {
+  background: #ffffff;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 1rem 0;
+}
+
+.nav-container {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+}
+
+.logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #002244;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+}
+
+.nav-links li a {
+  color: #002244;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #f9b000;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
