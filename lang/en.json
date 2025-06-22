@@ -79,4 +79,18 @@
   "caption3": "🎤 Keynote Speaker – OrthoTech World Conference, Singapore",
   "caption4": "📜 Certified by European Board of Plastic & Orthopedic Surgery"
   }
+  "contact": {
+  "title": "Book an Appointment",
+  "subtext": "Let’s connect. Your transformation begins with a consultation.",
+  "form": {
+    "name": "Full Name",
+    "email": "Your Email Address",
+    "phone": "Your Phone Number",
+    "message": "Your message or procedure interest...",
+    "button": "Send Message"
+  },
+  "whatsapp": "📱 WhatsApp: Chat Now",
+  "email": "📧 Email: hello@drdantorres.com",
+  "location": "📍 Available Globally – Based in Portugal"
+  }
 }
